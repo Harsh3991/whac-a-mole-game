@@ -1,0 +1,41 @@
+
+body {
+    background-image: url("bg.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.score-time-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    border: 20px solid rgb(195,136,95);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 30px 30px 10px 10px;
+}
+
+.square {
+    border: 1px solid black;
+    height: 98px;
+    width: 98px;
+}
+
+.mole {
+    background-image: url("mole.gif");
+    background-size: cover;
+}
